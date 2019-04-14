@@ -1,0 +1,9 @@
+A short description of this project
+
+
+
+In this project, I am going to design a small game named "Rock-paper-scissors", which will fulfill two main functions. The first one is to let a player play with the computer. The player will choose one from rock-paper-scissors and the computer will give its option as well. Then, the program will automatically decide who is the winner. If the player wins, one mark will be added to the score. If the computer wins, the player will lose one point. And of course, if they are tied, the score remains the same. The second function is to record the scores over times. Thus, the player will find out how many points obtained at the end. If the player wants to restart the game, there will be a reset button provided.
+
+There are two code files in this project. The first one is "RpsView.java", which provides the view of the game. Based on the code, we can get the size of the window and the layout of each button. In the window, there are three layers and "JPanel" is used to separate them. The first row contains the result of the computer's choice. The second row has three buttons which show the choices that the player can click. The last row demonstrates the score and reset button.
+
+The second file is "RpsEvent.java" with the codes that design the functions of reaction of clicking any button. The method of "actionPerformed" defines the actions of clicking buttons ("Rock", "Paper", "Scissors" and "Reset"). If the button of "Reset" is activated, then the score will be zero and the computer's choice is empty. If any one of the three choices is selected, the method of "startPlay( )" will start to work. In this function, the computer will have one option randomly and the winner will be determined based on the choices that the computer and the player made. At the same time, the mark will be changed according to the result.
